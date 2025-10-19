@@ -31,8 +31,6 @@ FocusFlow is a modern, responsive, and user-friendly web application that combin
 
 ## 🖼 Screenshots
 
-> Replace with your own screenshots  
-
 **Pomodoro & Task View:**  
 ![Pomodoro View](./assets/screenshots/pomodoro.png)  
 
