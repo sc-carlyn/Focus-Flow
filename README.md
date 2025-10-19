@@ -30,11 +30,9 @@ FocusFlow is a modern, responsive, and user-friendly web application that combin
 
 ## 🖼 Screenshots
 
-**Pomodoro & Task View:**  
-![Pomodoro View](assets/screenshots/pomodoro.png)  
-
-**To-Do List:**  
-![To-Do List](assets/screenshots/todolist.png)
+| Pomodoro View | To-Do List |
+|---------------|------------|
+| ![Pomodoro](assets/screenshots/pomodoro.png) | ![To-Do](assets/screenshots/todolist.png) |
 
 ---
 
