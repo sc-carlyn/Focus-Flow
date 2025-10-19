@@ -1,0 +1,155 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  color: #0d47a1;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  background: #ffffffee;
+  border-radius: 20px;
+  padding: 30px 40px;
+  width: 380px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* DİL SEÇİCİ */
+.lang-select {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.lang-select select {
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid #bbdefb;
+  cursor: pointer;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #1565c0;
+}
+
+header p {
+  font-size: 14px;
+  color: #1976d2;
+}
+
+/* POMODORO */
+.pomodoro {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.timer {
+  font-size: 56px;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #0d47a1;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+select, button {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+select {
+  background: #e3f2fd;
+  color: #0d47a1;
+}
+
+button {
+  background: #1976d2;
+  color: white;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #1565c0;
+}
+
+/* TO-DO */
+.todo {
+  margin-top: 20px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+#task-input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #bbdefb;
+  border-radius: 8px;
+}
+
+#add-task {
+  background: #0d47a1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e3f2fd;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  transition: 0.3s;
+}
+
+.task-item:hover {
+  background: #bbdefb;
+}
+
+.task-text.completed {
+  text-decoration: line-through;
+  color: #555;
+}
+
+.task-actions button {
+  margin-left: 6px;
+  padding: 4px 8px;
+  background: #1976d2;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.task-actions button:hover {
+  background: #0d47a1;
+}

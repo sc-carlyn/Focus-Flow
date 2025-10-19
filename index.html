@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FocusFlow - Pomodoro & ToDo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+
+    <!-- DİL SEÇİCİ VE HEADER -->
+    <header>
+      <div class="lang-select">
+        <label for="language">Language:</label>
+        <select id="language">
+          <option value="tr" selected>TR</option>
+          <option value="en">EN</option>
+        </select>
+      </div>
+      <h1>🎯 FocusFlow</h1>
+      <p>Odaklan, planla, başar!</p>
+    </header>
+
+    <!-- POMODORO -->
+    <section class="pomodoro">
+      <h2>Pomodoro Zamanlayıcı</h2>
+      <div class="timer" id="timer">25:00</div>
+
+      <div class="controls">
+        <select id="duration-select">
+          <option value="10">10 dk</option>
+          <option value="15">15 dk</option>
+          <option value="20">20 dk</option>
+          <option value="25" selected>25 dk</option>
+          <option value="30">30 dk</option>
+        </select>
+        <button id="start">▶ Başlat</button>
+        <button id="reset">↺ Sıfırla</button>
+      </div>
+    </section>
+
+    <!-- TO-DO -->
+    <section class="todo">
+      <h2>Yapılacaklar Listesi</h2>
+      <div class="input-group">
+        <input type="text" id="task-input" placeholder="Yeni görev ekle..." />
+        <button id="add-task">Ekle</button>
+      </div>
+      <ul id="task-list"></ul>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
