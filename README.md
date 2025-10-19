@@ -17,8 +17,7 @@ FocusFlow is a modern, responsive, and user-friendly web application that combin
   - Clean and interactive UI  
 
 - **Language Selection (EN/TR)** 🌐  
-  - Switch between English and Turkish dynamically  
-  - All UI elements including headers, buttons, placeholders, and alerts are translated  
+  - Switch between English and Turkish dynamically 
 
 - **Custom Pomodoro Durations** ⏱  
   - User can select work durations (10, 15, 20, 25, 30 minutes)  
